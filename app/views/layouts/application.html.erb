@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PortfolioSiteHeroku</title>
+    <title>E Y Portfolio</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <header>
+        <div class="nav">
+          <ul class="nav-list">
+            <a class="home" href="/">Everett Yeaw</a>
+            <a class="bio"><%= link_to "Bio", "/bio" %></a>
+            <a class="contact"><%= link_to "Contact", "/contact" %></a>
+          </ul>
+        </div>
+    </header>
     <%= yield %>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
   </body>
 </html>
