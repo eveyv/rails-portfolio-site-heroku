@@ -1,15 +1,48 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, a, .about {
+  font-family: "Quicksand", sans-serif;
+  color: inherit;
+}
+
+ h2 {
+   font-weight: bold;
+ }
+
+.column {
+  float: 100%;
+  padding: 5px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.home {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.badge-container {
+  width: 1280px;
+  margin: auto;
+}
+
+.center-column {
+  margin: auto;
+  width: 50%;
+}
+
+.mid-format {
+  padding: 10%;
+}
+
+.home-content {
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.description {
+  width: 45%;
+}
