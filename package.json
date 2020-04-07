@@ -11,5 +11,20 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.10.3"
+  },
+  "jest": {
+    "automock": false,
+    "roots": [
+      "spec/javascript",
+      "app/javascript"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "app/javascript"
+    ],
+    "setupFiles": [
+      "./spec/javascript/support/enzyme.js"
+    ],
+    "testURL": "http://localhost/"
   }
 }
