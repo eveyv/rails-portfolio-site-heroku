@@ -9,8 +9,6 @@ Rails.application.configure do
 
   config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
-  config.assets.js_compressor = :uglifier
-
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   config.assets.compile = false
