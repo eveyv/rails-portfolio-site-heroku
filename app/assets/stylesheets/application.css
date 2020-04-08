@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
    font-weight: bold;
  }
 
+ ul {
+   list-style-type: none;
+ }
+
 .column {
   float: 100%;
   padding: 5px;
@@ -43,6 +47,7 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
   padding-top: 5px;
 }
 
-.description {
+.work-description {
   width: 45%;
+  padding-left: 30px;
 }
