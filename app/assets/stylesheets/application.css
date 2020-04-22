@@ -5,13 +5,32 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
   color: inherit;
 }
 
- h2 {
-   font-weight: bold;
- }
-
  ul {
    list-style-type: none;
  }
+
+ img {
+   margin-right: 2.5%;
+ }
+
+ h3 {
+   text-decoration: overline;
+ }
+
+.link {
+  margin-right: 2.5%;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: #209CEE;
+  opacity: 80%;
+}
 
 .column {
   float: 100%;
