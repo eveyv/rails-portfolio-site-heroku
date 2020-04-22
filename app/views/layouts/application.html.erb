@@ -14,13 +14,11 @@
 
   <body>
     <header>
-        <div class="nav">
+        <div>
           <ul class="nav-list">
-            <a class="home" href="/">
             <%= link_to image_tag("logo.png", class: "logo"), image_path("/")%>
-            </a>
-            <a class="bio"><%= link_to "Bio", "/bio" %></a>
-            <a class="contact"><%= link_to "Contact", "/contact" %></a>
+            <%= link_to "Bio", "/bio", class: "link" %>
+            <%= link_to "Contact", "/contact", class: "second link" %>
           </ul>
         </div>
     </header>
