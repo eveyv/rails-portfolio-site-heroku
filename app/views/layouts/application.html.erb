@@ -14,13 +14,11 @@
 
   <body>
     <header>
-        <div>
           <ul class="nav-list">
             <%= link_to image_tag("logo.png", class: "logo"), image_path("/")%>
             <%= link_to "Bio", "/bio", class: "link" %>
             <%= link_to "Contact", "/contact", class: "second link" %>
           </ul>
-        </div>
     </header>
     <%= yield %>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
