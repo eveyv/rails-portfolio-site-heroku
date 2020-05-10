@@ -32,7 +32,6 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
 }
 
 .project:hover {
-  font-size: 22px;
   font-weight: bold;
   color: white;
   background-color: #209CEE;
