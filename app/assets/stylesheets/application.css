@@ -1,4 +1,3 @@
-@import 'foundation';
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 h1, h2, h3, h4, h5, h6, p, a, .about {
@@ -92,9 +91,15 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
   padding-top: 1%;
 }
 
-.icon-bar {
-  font-size: 100%;
+.icons {
+  font-size: 200%;
   color: #209CEE;
   float: right;
-  padding-right: 1.5%
+  padding-top: 10px;
+  padding-right: 1%;
+}
+
+.footer-text {
+  color: #209CEE;
+  text-align: center
 }
