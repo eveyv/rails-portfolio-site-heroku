@@ -99,7 +99,11 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
   padding-right: 1%;
 }
 
-.footer-text {
+.parent {
+  position: relative;
+  text-align: center;
+}
+
+.child {
   color: #209CEE;
-  text-align: center
 }
