@@ -21,9 +21,11 @@
             <%= link_to "Contact", "/contact", class: "second link" %>
           </ul>
     </header>
+    <body>
+      <div class="background-parent">
+        <div class="blank-space"></div>
+        <div class="background-image"></div>
+      </div>
+    </body>
     <%= yield %>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-  </body>
-  <footer class="parent"><h6 class="child"></h6></footer>
 </html>
