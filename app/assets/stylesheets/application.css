@@ -12,11 +12,6 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
    margin-right: 2.5%;
  }
 
- .background-parent {
-  position: relative;
-  width: 100%;
-}
-
 .link {
   margin-right: 2.5%;
   font-size: 26px;
@@ -70,6 +65,7 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
 .home-content {
   text-align: center;
   padding-top: 5px;
+  width: 50%;
 }
 
 .LI-profile-badge {
