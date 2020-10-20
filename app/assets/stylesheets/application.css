@@ -13,8 +13,16 @@ h1, h2, h3, h4, h5, h6, p, a, {
  }
 
  a {
-   color: #209CEE;
+  color: #209CEE;
  }
+
+ body{
+  background-image:url(https://pixabay.com/images/id-1190773/);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 .link {
   margin-right: 2.5%;
