@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-h1, h2, h3, h4, h5, h6, p, a, .about {
+h1, h2, h3, h4, h5, h6, p, a, {
   font-family: "Quicksand", sans-serif;
 }
 
@@ -12,10 +12,10 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
    margin-right: 2.5%;
  }
 
- .background-parent {
-  position: relative;
-  width: 100%;
-}
+ .about-me {
+   font-family: "Quicksand, sans-serif";
+   size: 35px;
+ }
 
 .link {
   margin-right: 2.5%;
