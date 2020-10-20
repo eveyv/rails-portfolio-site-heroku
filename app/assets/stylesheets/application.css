@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6, p, a, {
   color: #ffffff;
 }
 
+.light-blue {
+  background-color: #209CEE;
+  opacity: 70%;
+  border-radius: 15%
+}
+
 .link {
   margin-right: 2.5%;
   font-weight: bold;
