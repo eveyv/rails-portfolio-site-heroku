@@ -13,7 +13,8 @@ h1, h2, h3, h4, h5, h6, p, a, {
  }
 
  a {
-  color: #209CEE;
+  color: #ffffff;
+  weight: bold;
  }
 
  body{
@@ -22,6 +23,7 @@ h1, h2, h3, h4, h5, h6, p, a, {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color: #ffffff;
 }
 
 .link {
@@ -77,6 +79,7 @@ h1, h2, h3, h4, h5, h6, p, a, {
 .home-content {
   text-align: center;
   padding-top: 5px;
+  color: white
 }
 
 .logo {
@@ -86,8 +89,8 @@ h1, h2, h3, h4, h5, h6, p, a, {
 }
 
 .icons {
-  font-size: 200%;
-  color: #209CEE;
+  font-size: 220%;
+  color: #ffffff;
   float: right;
   padding-top: 10px;
   padding-right: 1%;
