@@ -2,7 +2,6 @@
 
 h1, h2, h3, h4, h5, h6, p, a, .about {
   font-family: "Quicksand", sans-serif;
-  color: inherit;
 }
 
  ul {
@@ -13,34 +12,9 @@ h1, h2, h3, h4, h5, h6, p, a, .about {
    margin-right: 2.5%;
  }
 
- h3 {
-   text-decoration: overline;
- }
-
  .background-parent {
   position: relative;
   width: 100%;
-}
-.blank-space, .background-image {
-  position: absolute;
-  min-height: 100%;
-  min-width: 1024px;
-}
-
-.blank-space {
-  left: 0;
-  top: 0;
-  background-color: white;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
-}
-
-.background-image {
-  right: 0;
-  top: 0;
-  background-image: url(https://www.pexels.com/photo/adventure-cold-conifers-evening-572897/);
-  -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
-  clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .link {
