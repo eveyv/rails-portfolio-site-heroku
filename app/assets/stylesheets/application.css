@@ -26,12 +26,6 @@ h1, h2, h3, h4, h5, h6, p, a, {
   color: #ffffff;
 }
 
-.light-blue {
-  background-color: #209CEE;
-  opacity: 70%;
-  border-radius: 15%
-}
-
 .link {
   margin-right: 2.5%;
   font-weight: bold;
@@ -43,6 +37,16 @@ h1, h2, h3, h4, h5, h6, p, a, {
   color: white;
   background-color: #209CEE;
   opacity: 80%;
+}
+
+.light-blue {
+  color: #ffffff;
+  background-color: #209CEE;
+  opacity: 40%;
+  border-radius: 15%;
+  width: 70%;
+  padding top: 2.5%;
+  padding bottom: 2.5%
 }
 
 .project:hover {
@@ -84,7 +88,7 @@ h1, h2, h3, h4, h5, h6, p, a, {
 .home-content {
   text-align: center;
   padding-top: 5px;
-  color: white
+  color: white;;
 }
 
 .logo {
