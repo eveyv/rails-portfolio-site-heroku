@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p, a, {
 
  a {
   color: #ffffff;
-  weight: bold;
+  font-size: 30;
  }
 
  body{
@@ -28,7 +28,6 @@ h1, h2, h3, h4, h5, h6, p, a, {
 
 .link {
   margin-right: 2.5%;
-  font-size: 26px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -68,8 +67,9 @@ h1, h2, h3, h4, h5, h6, p, a, {
 }
 
 .center-column {
+  font-size: 28em;
   margin: auto;
-  width: 50%;
+  width: 65%;
 }
 
 .mid-format {
