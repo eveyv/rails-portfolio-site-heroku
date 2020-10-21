@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-
-
 h1, h2, h3, h4, h5, h6, p, a, {
   font-family: "Quicksand", sans-serif;
   color: #f8f8ff;
@@ -38,6 +36,7 @@ h1, h2, h3, h4, h5, h6, p, a, {
 
 .project {
   font-size: 135%;
+  text-align: left;
 }
 
 .project:hover {
@@ -71,7 +70,6 @@ h1, h2, h3, h4, h5, h6, p, a, {
 }
 
 .home-content {
-  text-align: center;
   padding-top: 5px;
   color: #f8f8ff;
 }
@@ -80,6 +78,10 @@ h1, h2, h3, h4, h5, h6, p, a, {
   width: 5%;
   height: 5%;
   padding-top: 1%;
+}
+
+.section-title {
+  text-decoration: underline;
 }
 
 .icons {
