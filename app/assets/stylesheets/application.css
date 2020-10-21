@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-h1, h2, h3, h4, h5, h6, p, a, {
+h1, h2, h3, h4, h5, h6, p, a, .home-content {
   font-family: "Quicksand", sans-serif;
   color: #f8f8ff;
 }
@@ -13,66 +13,74 @@ h1, h2, h3, h4, h5, h6, p, a, {
    margin-right: 2.5%;
  }
 
- body{
+.bg {
+  z-index:-1;
   background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  bottom: cover;
+  left: 0;
+  right: 0;
   background-size: cover;
-  color: #f8f8ff;
+  opacity: 83%
 }
 
-.link {
-  margin-right: 2.5%;
-  text-decoration: none;
-  font-size: 155%;
+.bg-bio {
+  z-index:-1;
+  background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  opacity: 83%
 }
 
-.link:hover {
-  font-weight: bold;
-  color: #209CEE;
-  opacity: 95%;
+.bg-contact {
+  z-index:-1;
+  background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  opacity: 83%
 }
 
-.external-link {
-  font-size: 135%;
+.home-content {
+  padding-top: 2%;
+  font-size: 110%;
+  margin-left: 2.5%;
+  width: 65%;
   text-align: left;
-  text-decoration: none;
 }
 
-.external-link:hover {
-  font-weight: bold;
-  color: #209CEE;
-  opacity: 95%;
+.text-content {
+  text-align: left;
+  padding-left: 5%;
+  width:60%;
+  font-size: 110%;
 }
 
-.column {
-  float: 100%;
-  padding: 5px;
-  margin: auto;
+.page-title {
+  padding-top: 10%;
+  padding-left: 2%;
 }
 
-.row {
-  display: flex;
+.icon-bar {
+  z-index: 2;
+}
+
+.section-title {
+  padding-left: 2%;
+  font-style: bold
 }
 
 .home {
   font-size: 28px;
   font-weight: bold;
-}
-
-.center-column {
-  margin: auto;
-  width: 65%;
-}
-
-.mid-format {
-  padding: 10%;
-}
-
-.home-content {
-  padding-top: 5px;
-  color: #f8f8ff;
 }
 
 .logo {
@@ -81,14 +89,38 @@ h1, h2, h3, h4, h5, h6, p, a, {
   padding-top: 1%;
 }
 
-.section-title {
-  text-decoration: underline;
-}
-
 .icons {
   font-size: 225%;
   color: #209CEE;
-  float: right;
   padding-top: 10px;
-  padding-right: 1%;
+  padding-right: 2%;
+  position: absolute;
+  right: 0;
+}
+
+
+.link {
+  margin-right: 2.5%;
+  text-decoration: none;
+  font-size: 155%;
+}
+
+.external-link {
+  font-size: 135%;
+  text-align: left;
+  padding-left: 2.5%;
+}
+
+.source-code-link {
+
+}
+
+.link:hover, .external-link:hover, .source-code-link:hover, .icon-bar:hover {
+  color: #209CEE;
+  opacity: 95%;
+}
+
+.back-div-align {
+  text-align: left;
+  padding-left: 2.5%;
 }
