@@ -32,8 +32,7 @@ h1, h2, h3, h4, h5, h6, p, a, {
 
 .link:hover {
   font-weight: bold;
-  color: #f8f8ff;
-  background-color: #209CEE;
+  color: #209CEE;
   opacity: 95%;
 }
 
@@ -43,8 +42,7 @@ h1, h2, h3, h4, h5, h6, p, a, {
 
 .project:hover {
   font-weight: bold;
-  color: #f8f8ff;
-  background-color: #209CEE;
+  color: #209CEE;
   opacity: 95%;
 }
 
@@ -85,8 +83,8 @@ h1, h2, h3, h4, h5, h6, p, a, {
 }
 
 .icons {
-  font-size: 220%;
-  color: #f8f8ff;
+  font-size: 225%;
+  color: #209CEE;
   float: right;
   padding-top: 10px;
   padding-right: 1%;
