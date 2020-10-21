@@ -34,13 +34,13 @@ h1, h2, h3, h4, h5, h6, p, a, {
   opacity: 95%;
 }
 
-.project {
+.external-link {
   font-size: 135%;
   text-align: left;
   text-decoration: none;
 }
 
-.project:hover {
+.external-link:hover {
   font-weight: bold;
   color: #209CEE;
   opacity: 95%;
