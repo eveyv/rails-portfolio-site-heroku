@@ -45,8 +45,8 @@ h1, h2, h3, h4, h5, h6, p, a, {
   opacity: 40%;
   border-radius: 15%;
   width: 70%;
-  padding top: 2.5%;
-  padding bottom: 2.5%
+  padding-top: 1.5%;
+  padding-bottom: 1.5%
 }
 
 .project:hover {
