@@ -2,7 +2,7 @@
 
 h1, h2, h3, h4, h5, h6, p, a, {
   font-family: "Quicksand", sans-serif;
-  color: ##f8f8ff;
+  color: #f8f8ff;
 }
 
  ul {
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p, a, {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: ##f8f8ff;
+  color: #f8f8ff;
 }
 
 .link {
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6, p, a, {
 
 .icons {
   font-size: 220%;
-  color: ##f8f8ff;
+  color: #f8f8ff;
   float: right;
   padding-top: 10px;
   padding-right: 1%;
