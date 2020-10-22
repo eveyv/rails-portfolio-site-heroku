@@ -39,19 +39,7 @@ h1, h2, h3, h4, h5, h6, p, a, .home-content {
   opacity: 83%
 }
 
-.bg-bio {
-  z-index:-1;
-  background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-size: cover;
-  opacity: 83%
-}
-
-.bg-contact {
+.bg-other {
   z-index:-1;
   background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
   position: absolute;
