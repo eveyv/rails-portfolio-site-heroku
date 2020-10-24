@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p, a, .home-content {
     background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: cover;
     left: 0;
     right: 0;
     background-size: cover;
