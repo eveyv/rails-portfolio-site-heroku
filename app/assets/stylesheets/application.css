@@ -5,27 +5,23 @@ h1, h2, h3, h4, h5, h6, p, a, .home-content {
   color: #f8f8ff;
 }
 
- ul {
+ul {
    list-style-type: none;
  }
 
- img {
+img {
    margin-right: 2.5%;
  }
 
- @media screen and (max-width: 1024px) {
-  .bg {
-    z-index:-1;
-    background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
-    position: absolute;
-    top: 0;
-    bottom: cover;
-    left: 0;
-    right: 0;
-    background-size: cover;
-    opacity: 83%
-  }
-}
+ @media screen and (max-width: 720px) {
+   .home-content {
+     padding-top: 2%;
+     font-size: 80%;
+     margin-left: 2.5%;
+     width: 40%;
+     text-align: center;
+   }
+ }
 
 .bg {
   z-index:-1;
