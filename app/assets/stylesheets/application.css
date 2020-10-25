@@ -13,7 +13,7 @@ img {
    margin-right: 2.5%;
  }
 
-@media screen and (min-width: 1100px) {
+/* @media screen and (min-width: 1100px) {
     .bg {
       z-index:-1;
       background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
@@ -24,9 +24,9 @@ img {
       right: 0;
       opacity: 83%
     }
-}
+} */
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     .bg {
       z-index:-1;
       background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
@@ -37,14 +37,14 @@ img {
       right: 0;
       opacity: 83%
     }
-}
+} */
 
 @media screen and (min-width: 1400px) {
     .bg {
       z-index:-1;
       background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
       position: fixed;
-      height: 150%;
+      height: 115%;
       background-size: cover;
       left: 0;
       right: 0;
