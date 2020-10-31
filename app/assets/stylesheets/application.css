@@ -13,25 +13,12 @@ img {
    margin-right: 2.5%;
  }
 
-@media screen and (min-width: 1400px) {
-    .bg {
-      z-index:-1;
-      background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
-      position: fixed;
-      height: 115%;
-      background-size: cover;
-      left: 0;
-      right: 0;
-      opacity: 83%
-    }
-}
-
 .bg {
   z-index:-1;
   background-image:url(https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_1280.jpg);
   position: absolute;
   top: 0;
-  bottom: cover;
+  bottom: -1200;
   left: 0;
   right: 0;
   background-size: cover;
