@@ -4,4 +4,3 @@
 
 * System dependencies : yarn
 
-* Database creation: pgsql
